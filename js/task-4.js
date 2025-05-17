@@ -13,7 +13,7 @@ function handleSubmit(event) {
 }
 
 
-console.log(`Email: ${email}, Password: ${password}`);
+console.log({ email, password });
   
     form.reset()
 }
